@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<title>마티에</title>
+		<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script src="./js/jquery.min.js"></script>
+		<script defer src="js/function.js"></script>
+		<script src="https://kit.fontawesome.com/78d77b76b2.js" crossorigin="anonymous"></script>
+		<script src="./js/swiper-bundle.min.js"></script>
+	</head>
+
+	<body>
+		<div id="wrap">
+			<header>
+				<h1>
+					<a href="#">
+						<img src="./images/logo-w.svg" alt="logo" />
+					</a>
+				</h1>
+
+				<a href="#" class="ico-noti">
+					<i class="noti"> <span>알림</span></i>
+				</a>
+				<div class="menu-bar">
+					<nav>
+						<ul class="gnb">
+							<li>
+								<a href="#">About Us</a>
+							</li>
+							<li>
+								<a href="#">예약</a>
+							</li>
+							<li>
+								<a href="#">객실</a>
+							</li>
+							<li>
+								<a href="#">스페셜 오퍼</a>
+							</li>
+							<li>
+								<a href="#">어메니티</a>
+							</li>
+							<li>
+								<a href="#">H-LIVE Club</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="right-menu">
+					<button>
+						<i class="bars"></i>
+					</button>
+				</div>
+
+				<div id="menu">
+					<div class="container">
+						<button class="btnclose"></button>
+						<div class="big-gnb">
+							<div class="balloon">
+								<img src="./images/balloon.png" alt="말풍선" />
+							</div>
+							<div class="contents">
+								<ul class="menu-list">
+									<li class="on"><a href="#">객실</a></li>
+									<li><a href="#">스페셜 오퍼</a></li>
+									<li><a href="#">H-LIVE Club</a></li>
+									<li><a href="#">어메니티</a></li>
+									<li><a href="#">예약</a></li>
+									<li><a href="#">고객센터</a></li>
+									<li><a href="#">뉴스/공지</a></li>
+								</ul>
+							</div>
+							<div class="foot">
+								<ul class="sub-menu">
+									<li><a href="#">로그인</a></li>
+									<li><a href="#">회원가입</a></li>
+									<li><a href="#">예약확인</a></li>
+									<li><a href="#">H-LIVE Club</a></li>
+									<li><a href="#">앱다운로드</a></li>
+									<li><a href="#">고객센터</a></li>
+									<li><a href="#">사이트맵</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="mo-menu">
+					<div class="container">
+						<a href="#" class="home">
+							<span>홈으로 이동</span>
+						</a>
+
+						<button class="btnclose"></button>
+
+						<div class="mo-gnb">
+							<div class="top">
+								<h1 class="logo">
+									<a href="#">
+										<img src="./images/logo-o.svg" alt="logo" />
+									</a>
+								</h1>
+
+								<ul class="login">
+									<li><a href="#">로그인</a></li>
+									<li><a href="#">회원가입</a></li>
+								</ul>
+							</div>
+							<div class="contents">
+								<ul class="menu-list">
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">예약</a></li>
+									<li><a href="#">객실</a></li>
+									<li><a href="#">스페셜 오퍼</a></li>
+									<li><a href="#">어메니티</a></li>
+									<li><a href="#">H-LIVE Club</a></li>
+									<li><a href="#">예약확인</a></li>
+									<li><a href="#">고객센터</a></li>
+									<li><a href="#">뉴스/공지</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section>
+				<article id="main-slider">
+					<div class="banner-slider">
+						<ul class="slider">
+							<li class="slides"><img src="./images/view.do" alt="1" /></li>
+							<li class="slides"><img src="./images/view-1.do" alt="2" /></li>
+							<li class="slides"><img src="./images/view-2.do" alt="3" /></li>
+						</ul>
+
+						<a href="#" class="slides-navigation prevBtn"> 이전</a>
+						<a href="#" class="slides-navigation nextBtn">다음</a>
+					</div>
+
+					<div class="mo-banner-slider">
+						<ul class="slider">
+							<li class="slides"><img src="./images/view-3.do" alt="mo1" /></li>
+							<li class="slides"><img src="./images/view-4.do" alt="mo2" /></li>
+							<li class="slides"><img src="./images/view-5.do" alt="mo3" /></li>
+						</ul>
+
+						<a href="#" class="slides-navigation prevBtn"> 이전</a>
+						<a href="#" class="slides-navigation nextBtn">다음</a>
+					</div>
+				</article>
+
+				<article id="find-link">
+					<div class="link">
+						<a href="#" class="link-room">
+							<div class="cont">
+								<p class="tit">
+									Room & <br class="mobile" />
+									Package
+								</p>
+								<p class="txt">객실을 찾으시나요?</p>
+							</div>
+						</a>
+						<a href="#" class="link-program">
+							<div class="cont">
+								<p class="tit">Program</p>
+								<p class="txt">
+									체험 프로그램을 <br class="mobile" />
+									찾으시나요?
+								</p>
+							</div>
+						</a>
+					</div>
+				</article>
+
+				<article id="special-offer">
+					<h2 class="text-center">Special Offer</h2>
+					<div class="list-box">
+						<ul class="list">
+							<li>
+								<a href="#">
+									<div class="img">
+										<img src="./images/march.do" alt="march" />
+									</div>
+									<div class="cont">
+										<p class="tit">March Special Offer</p>
+										<p class="date">2023년 03월 31일까지</p>
+										<p class="price"><em>100,000</em> <span>KRW</span></p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img">
+										<img src="./images/april.do" alt="april" />
+									</div>
+									<div class="cont">
+										<p class="tit">April Special Offer</p>
+										<p class="date">2023년 04월 30일까지</p>
+										<p class="price"><em>104,000</em> <span>KRW</span></p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img">
+										<img src="./images/may.do" alt="may" />
+									</div>
+									<div class="cont">
+										<p class="tit">May Special Offer</p>
+										<p class="date">2023년 05월 31일까지</p>
+										<p class="price"><em>138,000</em> <span>KRW</span></p>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div class="more">
+							<a href="#">MORE</a>
+						</div>
+					</div>
+
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="#">
+									<div class="img">
+										<img src="./images/march.do" alt="march" />
+									</div>
+									<div class="cont">
+										<p class="tit">March Special Offer</p>
+										<p class="date">2023년 03월 31일까지</p>
+										<p class="price"><em>100,000</em> <span>KRW</span></p>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="#">
+									<div class="img">
+										<img src="./images/april.do" alt="april" />
+									</div>
+									<div class="cont">
+										<p class="tit">April Special Offer</p>
+										<p class="date">2023년 04월 30일까지</p>
+										<p class="price"><em>104,000</em> <span>KRW</span></p>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="#">
+									<div class="img">
+										<img src="./images/may.do" alt="may" />
+									</div>
+									<div class="cont">
+										<p class="tit">May Special Offer</p>
+										<p class="date">2023년 05월 31일까지</p>
+										<p class="price"><em>138,000</em> <span>KRW</span></p>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="more">
+							<a href="#">MORE</a>
+						</div>
+					</div>
+				</article>
+
+				<article id="amenity">
+					<h2 class="text-center">Amenity</h2>
+					<p class="sub-tit">
+						EXPERIENCE <br />
+						MORE
+					</p>
+
+					<div class="object">
+						<div class="obj" style="will-change: transform; transform: translateY(300px)">
+							<div class="item obj1">
+								<div class="img">
+									<img src="./images/home-amenity-obj-01.png" alt="dining" />
+									<img class="mo" src="./images/home-amenity-obj-m-01.png" alt="dining" />
+								</div>
+								<dl>
+									<dt><a href="#">Dining</a></dt>
+									<dd>
+										마티에 다이닝에서 조식부터 디너까지 <br />
+										전문 셰프들이 즉석에서 선보이는 200여가지의 <br />
+										요리를 경험할 수 있습니다.
+									</dd>
+								</dl>
+							</div>
+						</div>
+
+						<div class="obj" style="will-change: transform; transform: translateY(300px)">
+							<div class="item obj2">
+								<div class="img">
+									<img src="./images/home-amenity-obj-02.png" alt="Facility" />
+									<img class="mo" src="./images/home-amenity-obj-m-02.png" alt="Facility" />
+								</div>
+								<dl>
+									<dt><a href="#">Facility</a></dt>
+									<dd>
+										활력 있는 생활을 추구할 수 있는 운동시설부터, <br />
+										심신의 균형과 조화를 다스려주는 스파까지 <br />
+										최상의 시설을 경험해 보세요.
+									</dd>
+								</dl>
+							</div>
+						</div>
+
+						<div class="obj" style="will-change: transform; transform: translateY(100px)">
+							<div class="item obj3">
+								<div class="img">
+									<img src="./images/home-amenity-obj-03.png" alt="offer" />
+									<img class="mo" src="./images/home-amenity-obj-m-03.png" alt="offer" />
+								</div>
+								<dl>
+									<dt><a href="#">Offer</a></dt>
+									<dd>
+										마티에의 특별한 호텔 패키지 및 <br />
+										프로모션을 확인하세요.
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+
+					<div class="fix-img">
+						<div class="bg">
+							<img src="./images/home-amenity-m2.png" alt="#" />
+						</div>
+						<div class="txt">
+							<p>
+								Discover the unique <br class="mo" />
+								texture of your own life.
+							</p>
+							<span>
+								<img src="./images/home-amenity-bi.png" alt="Matie" />
+							</span>
+						</div>
+					</div>
+				</article>
+
+				<article id="membership">
+					<div class="hr">
+						<hr />
+					</div>
+					<h2>
+						H-LIVE <br />
+						Membership Only
+					</h2>
+					<p>
+						H-LIVE 멤버십 회원만의 특권을 만나보세요. <br />
+						마티에 브랜드 혜택을 함께 누리실 수 있습니다.
+					</p>
+					<div class="container">
+						<ul class="list">
+							<li>
+								<div class="photo">
+									<img src="./images/home-membership-01.png" alt="#" />
+								</div>
+								<div class="cont">
+									<p class="tit">H-LIVE 포인트</p>
+									<p class="txt">
+										현금처럼 사용 가능한 <br />
+										실용적인 H-LIVE 포인트
+									</p>
+								</div>
+							</li>
+
+							<li>
+								<div class="photo">
+									<img src="./images/home-membership-02.png" alt="#" />
+								</div>
+								<div class="cont">
+									<p class="tit">H-LIVE 회원 특별 요금</p>
+									<p class="txt">
+										H-LIVE 회원만을 위한 <br />
+										할인된 요금 제공
+									</p>
+								</div>
+							</li>
+
+							<li>
+								<div class="photo">
+									<img src="./images/home-membership-03.png" alt="#" />
+								</div>
+								<div class="cont">
+									<p class="tit">H-LIVE 회원 전용 상품</p>
+									<p class="txt">
+										H-LIVE 회원만을 위한<br />
+										전용 상품 제공
+									</p>
+								</div>
+							</li>
+						</ul>
+
+						<div class="more">
+							<a href="#">H-LIVE Club 가입하기</a>
+						</div>
+					</div>
+
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="photo">
+									<img src="./images/home-membership-01.png" alt="#" />
+								</div>
+								<div class="cont">
+									<p class="tit">H-LIVE 포인트</p>
+									<p class="txt">
+										현금처럼 사용 가능한 <br />
+										실용적인 H-LIVE 포인트
+									</p>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo">
+									<img src="./images/home-membership-02.png" alt="#" />
+								</div>
+								<div class="cont">
+									<p class="tit">H-LIVE 회원 특별 요금</p>
+									<p class="txt">
+										H-LIVE 회원만을 위한 <br />
+										할인된 요금 제공
+									</p>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo">
+									<img src="./images/home-membership-03.png" alt="#" />
+								</div>
+								<div class="cont">
+									<p class="tit">H-LIVE 회원 전용 상품</p>
+									<p class="txt">
+										H-LIVE 회원만을 위한<br />
+										전용 상품 제공
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="more">
+							<a href="#">H-LIVE Club 가입하기</a>
+						</div>
+					</div>
+
+					<div class="bg one">
+						<div class="img"></div>
+					</div>
+
+					<div class="bg two">
+						<div class="img"></div>
+					</div>
+				</article>
+			</section>
+
+			<div id="mo-menu-bar">
+				<ul class="bar">
+					<li><a href="#" class="home">홈</a></li>
+					<li><a href="#" class="reservation">예약</a></li>
+					<li><a href="#" class="confirm">예약조회</a></li>
+					<li><a href="#" class="mypage">마이페이지</a></li>
+				</ul>
+			</div>
+
+			<aside>
+				<button type="button" class="top"></button>
+			</aside>
+			<footer>
+				<div class="footer-logo">
+					<a href="#">
+						<img src="./images/logo-g.svg" alt="logo" />
+					</a>
+				</div>
+
+				<div class="txt">
+					<div class="box">
+						<p>한화호텔앤드리조트㈜ 대표 : 김형조</p>
+						<p>서울특별시 영등포구 63로 50(여의도동) 07345</p>
+						<p>사업자등록번호 : 101-81-30747</p>
+						<p>통신판매업신고 : 2015-서울영등포-0907</p>
+						<p>Copyright@ Hanwha Hotels &amp; Resorts. All Rights Reserved.</p>
+					</div>
+
+					<div class="box">
+						<p><a href="#">이용약관</a></p>
+						<p><a href="#">개인정보 처리방침</a></p>
+						<p><a href="#">영상정보처리기기 운영·관리 방침</a></p>
+						<p><a href="#">고객의 소리함</a></p>
+						<p>고객센터 1588-2299</p>
+					</div>
+
+					<div class="box">
+						<div class="last">
+							<div class="last-box">
+								<p><a href="#">회사소개</a></p>
+								<p><a href="#">마티에 소개</a></p>
+								<p><a href="#">인재채용</a></p>
+							</div>
+
+							<div class="icon">
+								<a href="#"><img src="./images/sns-instagram.svg" alt="instagram" /></a>
+								<a href="#"><img src="./images/sns-youtube.svg" alt="youtube" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
